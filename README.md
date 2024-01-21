@@ -6,7 +6,7 @@ npm i
 ```
 **Rename the .env.example file to .env .**
 <br/>
-**adjust the base**
+**Fill in the database information**
 
 ### Enter the terminal
 ```

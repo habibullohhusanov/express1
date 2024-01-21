@@ -1,0 +1,7 @@
+dotenv  .env dan ma'lumot olish uchun
+ejes  web ko'rinishni html faylga generate qilish uchun
+express  node js freamwork
+joi  kelayotgan ma'lumotni validate qilish uchun
+method-override  put, patch, delete metoni tanish uchun
+moongoose  mongooDB bilan ishlash uchun
+pg  PostgreSQL bilan ishlash uchun
