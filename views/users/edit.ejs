@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update</title>
+</head>
+
+<body>
+    <form action="/users/<%= user.id %>?_method=PUT" method="POST">
+        <input type="text" name="username" value="<%= user.username %>">
+        <input type="password" name="password" value="<%= user.password %>">
+        <input type="text" name="age" value="<%= user.age %>">
+        <button type="submit">OK</button>
+    </form>
+</body>
+
+</html>

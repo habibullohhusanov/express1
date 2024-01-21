@@ -4,16 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Add</title>
 </head>
 
 <body>
     <form action="/users" method="POST">
-        <label for=""><%= title %></label>
-        <% if (locals.id) {%>
-        <p><%= locals.id %></p>
-        <% } %>
-        <input type="text" name="name">
+        <input type="text" name="username">
+        <input type="password" name="password">
+        <input type="text" name="age">
         <button type="submit">OK</button>
     </form>
 </body>
